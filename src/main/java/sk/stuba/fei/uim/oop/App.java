@@ -14,6 +14,10 @@ public class App {
     }
 
     public static void vypis(int a) {
-        System.out.println(a);
+        System.out.println(String.format("Funkcia bola zavolaná %d. krát",a+1));
+        if (a == 0) {
+            System.out.println("zaujimavy vypis");
+        }
+
     }
 }
